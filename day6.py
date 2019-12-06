@@ -14,7 +14,7 @@ orbits = {}
 orbits["COM"] = 0
 parents = {}
 
-# run a dfs starting with COM, keeping track of parents
+# run a bfs starting with COM, keeping track of parents
 queue = ["COM"]
 while queue:
   current = queue.pop(0)
